@@ -4,8 +4,9 @@ This repository supports the research project:
 
 > **LLMs Under Attack: Comparing Adversarial Attacks on Large Language Models with Regularized Relaxation**  
 > Yuqing Liu, Mahmoud Fakhry, Hong Leng Toh  
-> Oregon State University  
-> **Paper:** `Paper/LLM_adversarial_attacks.pdf`
+> Oregon State University, 2025
+>
+> **[View Paper](Paper/LLM_adversarial_attacks.pdf)**
 
 This work reproduces and extends prior RR (Regularized Relaxation) results and compares four adversarial methods for generating adversarial suffixes for LLMs: **PGD**, **RR (L2)**, **RR (L2+KL)**, and **BEAST**. Experiments measure attack success rate (ASR) on two benchmark sets (AdvBench, HarmBench) and explore transferability, readability, and practical limitations.
 

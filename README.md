@@ -74,30 +74,6 @@ Adversarial attacks can bypass safety filters and induce harmful outputs from LL
 
 ---
 
-## How to Use / Reproduce (short)
-
-- Models & checkpoints: Llama2-7B-Chat, Falcon-7B-Instruct, MPT-7B-Chat (train); Meta-Llama3-8B-Instruct, Beaver-7b-v1.0-cost (eval).  
-- Datasets: `AdvBench/` and `HarmBench/` (50 prompts each).  
-- Implementations: `pgd/`, `rr_l2/`, `rr_l2_kl/`, `beast/` (train suffix embeddings or run beam search; discretize with nearest-neighbor to vocab).  
-- Key hyperparameters: learning rate, λ (L2), β (KL), beam widths k1/k2, suffix length L.
-
----
-
-## Future Work
-
-- Multi-round dialogue attacks that leverage attention across turns.  
-- Better, objective readability/stealth metrics.  
-- Automated prefix selection and stronger black-box optimization strategies.  
-- Integrate layered defenses and evaluate utility/robustness trade-offs.
-
----
-
-## Acknowledgments
-
-> Thanks to collaborators and datasets referenced in the paper.
-
----
-
 ## Citation
 
 ```bibtex
